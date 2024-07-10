@@ -1,0 +1,14 @@
+[package]
+name = "dioxus-repo-2616"
+version = "0.1.0"
+authors = ["Evan Almloff <evanalmloff@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dioxus = { git = "https://github.com/DioxusLabs/dioxus", rev = "c47d7da0705881b0ca075e57c9ea0c43df164f49", features = ["web", "router"] }
+
+# Debug
+tracing = "0.1.40"
+dioxus-logger = "0.5.0"
